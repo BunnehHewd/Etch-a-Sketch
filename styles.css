@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(#FBD87F, #FCE4D8) fixed;
+}
+
+header {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 58px;
+    color: #f75590;
+    text-shadow: 2px 2px 4px #FCE4D8;
+}
+
+div.menu {
+    width: 100%;
+}
+
+div {
+    border: 1px solid black;
+}
+
+
+/* CSS GRID */
+#container {
+
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    margin-bottom: 50px;
+}
+
+
+div.cell {
+    gap: 0px;
+    background-color: white;
+    border-radius: 2px;
+}
+
