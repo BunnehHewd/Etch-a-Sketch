@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Cormorant+Garamond&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
    
 </head>
 <body>
@@ -19,7 +20,18 @@
         <h1>Etch-A-Sketch!</h1>
     </header>
     <div class="menu">
-        <input type="range" id="grid" min="1" max ="64" value="16">    
+        <div class="slider">
+            <input type="range" id="grid" min="1" max ="64" value="16">
+            <span class="size"></span> 
+        </div> 
+        <div class ="colors">
+            <p>Themes:</p>
+            <button type="button" class="pastelWarm">Warm Pastel</button>
+            <button type="button" class="pastelCold">Cold Pastel</button>
+            <button type="button" class="greyscale">Greyscale</button>
+            <button type="button" class="black">Black</button>
+            <button type="button" class="rainbow">Rainbow</button>
+        </div> 
     </div>
 
     <!-- 16 x 16 -->
