@@ -19,7 +19,7 @@ header {
 h1{
     text-align: center;
     font-family: 'Bubblegum Sans', cursive;
-    font-size: 58px;
+    font-size: 64px;
     color: #f75590;
     text-shadow: 2px 2px 4px #FCE4D8;
 }
@@ -31,12 +31,23 @@ div.menu {
     margin-bottom: 30px;
     gap: 30px;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
+
+h3 {
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: #f75590;
+    text-shadow: 2px 2px 0px #FCE4D8;
+}
+
 
 div.slider {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
+    font-size: 10px;
 }
 
 /* Resets track */
@@ -83,14 +94,54 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 4px;
  }
 
-
-
-
-/* CSS GRID */
-#container {
-
+/* BUTTONS */
+button {
+    border: 1px solid #f75590;
+    border-radius: 30px;
+    box-shadow: #422800 2px 2px 0 0;
+    font-family: 'Bubblegum Sans', cursive;
+    margin: 0 5px;
+    padding: 5px 10px;
+    line-height: 15px;
+    font-size: 16px;
 }
 
+.pastelWarm {
+    background-color: #F5C1Cf;
+    color: #FFEFC9;
+    text-shadow: 1px 1px 3px #ac7b5b ;
+}
+
+.pastelCold {
+    background-color: #4382BB;
+    color: #DDF2F4;
+    text-shadow: 1px 1px 3px #A15D98 ;
+}
+
+.greyscale {
+    background-color: #5C5E60;
+    color: #AEAEAE;
+    text-shadow: 1px 1px 3px #1d1d1c ;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.rainbow {
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.reset {
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 8px;
+}
+
+/* CSS GRID */
 .container {
     width: 500px;
     height: 500px;
